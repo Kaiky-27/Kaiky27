@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <style>
+        p{
+            color: deepskyblue;
+        }
+        figcaption{
+            color: deepskyblue;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ol>
+                <li>320I</li>
+                <li>M2 Competition</li>
+                <li>M3 Competition</li>
+            </ol>
+        </nav>
+        <h1 style="color:blue;">BMW Motorsport</h1>
+    </header>
+    <section>
+        <h2>Conheca Nossos Carros!!!</h2>
+        <p>
+            A BMW (Bayerische Motoren Werke) é uma renomada fabricante alemã de automóveis e motocicletas, fundada em 1916. Conhecida por seus veículos de luxo e alto desempenho, a BMW se destaca por sua engenharia de precisão, design elegante e tecnologia inovadora. A marca é sinônimo de qualidade e prestígio, oferecendo uma linha diversificada de carros, que vão desde modelos esportivos até SUVs e sedãs. Com um compromisso com a sustentabilidade, a BMW também investe fortemente em veículos elétricos e híbridos, mantendo sua posição de liderança no mercado automotivo global.
+         <a href="https://www.bmw.com.br/pt/index.html">Link</a>
+       </p>
+       <figure>
+        <img src="img/320I.png" alt="Nova 320I">
+        <figcaption>320I</figcaption>
+       </figure>
+       <figure>
+        <img src="img/M2.png" alt="M2 Competition">
+        <figcaption>M2</figcaption>
+       </figure>
+       <figure>
+        <img src="img/M3.png" alt="M3 Competition">
+        <figcaption>M3</figcaption>
+       </figure>
+       <section>
+        <video controls width="500px">
+            <source src="img/bmw.mp4" type="video/mp4">
+        </video>
+        <br><br>
+        <h2>Preços dos nossos carros!</h2>
+        <p>Veja o valor de cada veiculo!</p>
+        <section>
+            <table border>
+                <caption>Nosssos veiculos e seus respectivos valores</caption>
+                <thead>
+                <tr>
+                    <th>
+                        Carros
+                    </th>
+                    <th>
+                        Valor
+                    </th>
+                    <tr>
+                        <tbody>
+                        <td>
+                            320I
+                        </td>
+                        <td>
+                            R$280,000
+                        </td>
+                        <tr>
+                            <td>
+                                M2 Competition
+                            </td>
+                            <td>
+                                R$620,000
+                            </td>
+                            <tr>
+                                <td>
+                                    M3 Competition
+                                </td>
+                                <td>
+                                    R$890,000
+                                </td>
+                            </tbody>
+                            </tr>
+                        </tr>
+                    </tr>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <th>Carros</th>
+                    <th></tbody>Valores</th>
+                </tr>
+            </tfoot>
+            </table>
+        </section>
+        <section>
+            <h2>Orçamento e Teste Drive</h2>
+            <form method="get" action="">
+                <fieldset>
+                 <legend>Dados do Proprietráio</legend>   
+                <label>Nome</label><br>
+                <input type="text" name="nome"><br><br>
+                <label>Email</label><br>
+                <input type="email" required nome="email"><br><br>
+                <label>Senha</label><br>
+                <input type="password"><br><br>
+                </fieldset>
+                <br>
+                <fieldset>
+                <label>Escolha um carro</label><br>
+                <select id=“carros” name=“carros”><br>
+                    <option  value=“320i”>320i</option>
+                    <option  value=“m2”>M2</option>
+                    <option  value=“m3”>M3</option>
+           </select><br><br>
+                <label>Data do Teste</label><br>
+                <input type="date" name="DataIda"><br><br>
+                <label>Fim do Teste</label><br>
+                <input type="date" name="DataVolta"><br><br>
+                <label>Quantos dias de teste?</label><br>
+                <input type="number"><br><br>
+                </fieldset>
+                <label>Comentário</label><br>
+                <textarea rows="5" name="comentario"></textarea><br><br>
+
+                <button>Salvar</button>
+            </form>
+        </section>
+       </section>
+       <footer>
+        <p>Desenvolvido por Kaiky Ribeiro</p>
+    </footer>
+        
+        
+</body>
+</html>
